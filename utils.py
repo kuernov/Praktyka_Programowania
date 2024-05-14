@@ -4,6 +4,9 @@ This module provides utility functions.
 
 
 def is_odd(n):
+    """
+    Checks if a number is odd
+    """
     return n % 2 == 1
 
 
@@ -36,4 +39,3 @@ def find_max(lst):
     if not lst:
         return None
     return max(lst)
-
